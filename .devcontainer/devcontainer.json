@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:1-ubuntu-24.04",
+  "features": {
+  }
+}
