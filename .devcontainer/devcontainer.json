@@ -1,10 +1,16 @@
 {
-  "name": "Ubuntu",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "VARIANT": "jammy"  // This corresponds to Ubuntu 24.04
+    "name": "Ubuntu",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "VARIANT": "jammy" // Update VARIANT to jammy for Ubuntu 24.04
+        }
+    },
+    "features": {
+        "kubectl-helm-minikube": "latest",
+        "terraform": "latest",
+        "git-lfs": "latest",
+        "github-cli": "latest",
+        "powershell": "7.1"
     }
-  },
-  // Other configurations...
 }
