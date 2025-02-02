@@ -1,5 +1,10 @@
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:1-ubuntu-24.04",
-  "features": {
-  }
+  "name": "Ubuntu",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "jammy"  // This corresponds to Ubuntu 24.04
+    }
+  },
+  // Other configurations...
 }
